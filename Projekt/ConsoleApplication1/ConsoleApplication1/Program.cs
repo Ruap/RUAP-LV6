@@ -35,7 +35,7 @@ namespace ConsoleApplication1
                             new StringTable() 
                             {
                                 ColumnNames = new string[] {"MPG", "Cyl", "Displacement", "Horsepower", "Weight", "Acceleration", "Year", "CountryCode", "Model"},
-                                Values = new string[,] {  { "0", "0", "0", "0", "0", "0", "0", "0", "value" },  { "0", "0", "0", "0", "0", "0", "0", "0", "value" },  }
+                                Values = new string[,] {  { "18", "4", "300", "120", "3000", "12", "70", "1", "ford fortino" },  { "0", "0", "0", "0", "0", "0", "0", "0", "value" },  }
                             }
                         },
                     },
