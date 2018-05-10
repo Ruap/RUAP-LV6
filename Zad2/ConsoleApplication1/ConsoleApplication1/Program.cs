@@ -34,7 +34,7 @@ namespace ConsoleApplication1
                             new StringTable() 
                             {
                                 ColumnNames = new string[] {"Col1", "Col2", "Col3", "Col4", "Col5"},
-                                Values = new string[,] {  { "value", "value", "value", "value", "value" },  { "value", "value", "value", "value", "value" },  }
+                                Values = new string[,] {  { "4", "6", "2200", "74", "1" },  { "6", "8", "2600", "76", "0" },  }
                             }
                         },
                     },
@@ -42,7 +42,7 @@ namespace ConsoleApplication1
                     {
                     }
                 };
-                const string apiKey = "abc123"; // Replace this with the API key for the web service
+                const string apiKey = "xaDzaouzWsRFwY6IIlOZ1mjB3/Qo6PqNFfiBOOFFvfdwxOFRYSr6a9MvxpFOpNWsA8czISUKX7Fd2rt3DYQtDA=="; // Replace this with the API key for the web service
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
 
                 client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/70f52eba71314efeb7ddf06882d4ac2c/services/4b39bee21f144afc948ea728a2e6547c/execute?api-version=2.0&details=true");
@@ -73,6 +73,10 @@ namespace ConsoleApplication1
                     Console.WriteLine(responseContent);
                 }
             }
+
         }
+
     }
+
+
 }
