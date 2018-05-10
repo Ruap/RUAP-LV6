@@ -1,0 +1,2 @@
+- njabolji je decision tree sa psotavljenim parametrom 14 borj drveca za donosenje odluke
+- zato sto najbolje odgovara regresijskom pravcu
